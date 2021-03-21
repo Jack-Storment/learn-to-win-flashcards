@@ -1,0 +1,57 @@
+
+.vector-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 250px;
+  /* border-bottom: 2px solid rgb(164, 164, 164); */
+}
+
+.blurb-wrapper {
+  display: flex;
+  width: 250px;
+  height: 150px;
+  margin-top: 60px;
+  border-radius: 10px;
+  background-color: rgb(232, 228, 228);
+  /* background: linear-gradient(to right, #FFB238, #F19143); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  justify-content:center;
+  text-align: center;
+  align-content: center;
+  flex-direction: column;
+  color: rgb(67, 66, 66);
+  padding: 5px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.2em;
+}
+
+
+/*CSS if I want each blurb to have side borders instead of a background color box */
+
+/* .blurb-one {
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+/* .blurb-two {
+  border-right: 1px solid black;
+  border-: 1px solid black;
+
+} */
+
+/* .blurb-three {
+  border-left: 1px solid black;
+  padding-left: 10px;
+} */ 
+
+
+@media (max-width: 640px) {
+  .vector-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
